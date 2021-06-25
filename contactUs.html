@@ -113,24 +113,24 @@
                     </div>
                     <div class="info"> אנחנו כאן כדי לשמוע! שתף/י אותנו בחווית השימוש באתר</div>
                     <form aria-label="contact us" role="form">
-                        <fieldset>
+                  <fieldset>
                             <legend> פרטים אישיים</legend>
                             <label for="name">
                                 שם
                                 <br />
-                                <input type="text" id="name" placeholder="הקלד/י את שמך" required aria-required="true" />
+                                <input type="text" autocomplete="off" id="name" placeholder="הקלד/י את שמך" required aria-required="true" aria-invalid="false"  />
                             </label>
                             <br />
                             <label for="email">
                                 כתובת מייל
                                 <br />
-                                <input type="text" id="email" placeholder="example@example.com" required aria-required="true" />
+                                <input type="email" autocomplete="off" id="email" name="email"  placeholder="example@example.com" required aria-required="true" aria-invalid="false" />
                             </label>
                             <br />
                             <label for="phoneNumber">
                                 מספר טלפון
                                 <br />
-                                <input type="text" id="phoneNumber" required aria-required="true" />
+                                <input type="tel"  autocomplete="off" id="phoneNumber" name="tel" required aria-required="true" aria-invalid="false" />
                             </label>
                         </fieldset>
                         <br />
