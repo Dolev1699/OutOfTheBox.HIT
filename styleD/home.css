@@ -1,0 +1,370 @@
+body {
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Varela Round'
+}
+
+#site-introduction {
+    position: relative;
+    right: 50px;
+}
+#page-head {
+    width: 1280px;
+    height: 470px;
+    background: rgba(197, 224, 180, 1);
+    background-image: url("../images/box-background.png");
+    background-image: url("../images/box-background.png");
+    background: linear-gradient(0deg, rgba(226, 240, 217, 1) 0%, rgba(197, 224, 180, 1) 100%);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    color: #002060;
+    box-shadow: 0 10px 20px rgba(150, 150, 150, 0.3);
+}
+
+#bottom-nav-bar {
+    margin-top: 800px;
+}
+
+
+.boxImage {
+    position: relative;
+    right: 80px;
+    z-index: 9;
+    width: 57%;
+    min-height: 350px;
+    background-image: url("../images/box-decorated.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    top: -70px;
+}
+.boxImage a {
+    margin: auto;
+    position: relative;
+    left: 20px;
+}
+@keyframes pulse {
+    30% {
+        transform: scale(1.15);
+    }
+    60%,
+    100% {
+        transform: scale(1);
+    }
+}
+.anchorArrow {
+    animation: pulse 1.6s infinite ease-in-out;
+}
+.floatText {
+    margin-right: 60%;
+    max-width: 450px;
+    position: relative;
+    top: -200px;
+}
+.floatText p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.games-rectangle {
+    background: rgba(197, 224, 180, 1);
+    background: linear-gradient(0deg, rgba(226, 240, 217, 1) 0%, rgba(197, 224, 180, 1) 100%);
+    height: 100px;
+    width: 90%;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(150, 150, 150, 0.3);
+}
+
+    
+.games-rectangle h3 {
+    position: relative;
+    top: 20px;
+    right: 30px;
+    font-weight: 100;
+    color: darkolivegreen
+}
+
+.games-rectangle p {
+    position: relative;
+    top: -20px;
+    right: 170px;
+    font-weight: 100;
+    color: midnightblue;
+}
+
+#board-games {
+    top: 250px;
+    right: 50px;
+}
+
+#card-games {
+    top: 325px;
+    right: 50px;
+}
+
+#box-games {
+    top: 400px;
+    right: 50px;
+}
+
+.games-rectangle .game-rectangle {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 80px;
+    width: 250px;
+    margin: 50px;
+    position: relative;
+    z-index: 3;
+    opacity:0.85;
+}
+
+.game-rectangle p {
+    top: 30px;
+    right: 50px;
+}
+
+.game-rectangle img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: -50px;
+    right: 150px;
+}
+
+#game1 {
+    top: -60px;
+    right: -30px;
+}
+
+#game2 {
+    top: -190px;
+    right: 250px;
+}
+
+#game3 {
+    top: -320px;
+    right: 530px;
+}
+
+#game4 {
+    top: -450px;
+    right: 810px;
+}
+
+.available-game {
+    opacity: 1;
+}
+
+.available-game:hover {
+    background-color: lightgray;
+}
+
+    .available-game:focus {
+        background-color: lightgray;
+    }
+
+
+
+
+#introduction {
+    background: rgba(197, 224, 180, 1);
+    background: linear-gradient(0deg, rgba(226, 240, 217, 1) 0%, rgba(197, 224, 180, 1) 100%);
+    height: 300px;
+    width: 90%;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(150, 150, 150, 0.3);
+    top: 600px;
+}
+
+    #introduction h2 {
+        position: relative;
+        padding: 20px;
+        font-weight:200;
+        color:midnightblue;
+    }
+
+    #introduction p {
+        position: relative;
+        font-weight: 100;
+        color: midnightblue;
+        right: 25px;
+        top: -20px;
+    }
+
+.white-square {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 120px;
+    width: 170px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+
+.pink-rect {
+    background-color: pink;
+    border-radius: 5px;
+    height: 40px;
+    width: 170px;
+    position: relative;
+    background-color: rgb(253, 127, 166);
+    top: -70px;
+    overflow: hidden;
+}
+
+.pink-rect span {
+    position: relative;
+    float: right;
+    right: 20px;
+    top: 10px;
+}
+
+.white-square img {
+    position: relative;
+    top: -20px;
+    height:150px;
+    width: 150px;
+    right: 10px;
+}
+
+.white-square h3 {
+    position: relative;
+    text-align: center;
+    color: midnightblue;
+    font-weight:100;
+    padding-bottom:10px;
+}
+
+    .white-square p {
+        width: 80%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #explanation1-behind {
+        background-color: rgb(253, 127, 166);
+        z-index: 2;
+        right: 190px;
+        visibility: hidden;
+    }
+
+#explanation1:hover + #explanation1-behind {
+    visibility:visible;
+}
+
+#explanation1:focus + #explanation1-behind {
+    visibility: visible;
+}
+
+#explanation1-behind:hover {
+    visibility: visible;
+}
+
+#explanation1-behind:focus {
+    visibility: visible;
+}
+
+#explanation2-behind {
+    background-color: rgb(253, 127, 166);
+    z-index: 2;
+    right: 380px;
+    visibility: hidden;
+    height: 150px;
+}
+
+#explanation2:hover + #explanation2-behind {
+    visibility: visible;
+}
+
+#explanation2:focus + #explanation2-behind {
+    visibility: visible;
+}
+
+#explanation2-behind:hover {
+    visibility: visible;
+}
+
+#explanation2-behind:focus {
+    visibility: visible;
+}
+
+#explanation2 {
+    right: 190px;
+}
+
+#explanation3 {
+    right: 380px;
+}
+
+#explanation3-behind {
+    background-color: rgb(253, 127, 166);
+    z-index: 2;
+    right: 570px;
+    visibility: hidden;
+    height: 130px;
+}
+
+#explanation3:hover + #explanation3-behind {
+    visibility: visible;
+}
+
+#explanation3:focus+ #explanation3-behind {
+    visibility: visible;
+}
+
+#explanation3-behind:hover {
+    visibility: visible;
+}
+
+#explanation3-behind:focus {
+    visibility: visible;
+}
+
+#explanation4 {
+    top: -130px;
+    right: 190px;
+}
+
+#explanation4-behind {
+    top: -130px;
+    right: 380px;
+    background-color: rgb(253, 127, 166);
+    z-index: 2;
+    visibility: hidden;
+}
+
+#explanation4:hover + #explanation4-behind {
+    visibility: visible;
+}
+
+#explanation4:focus + #explanation4-behind {
+    visibility: visible;
+}
+
+#explanation4-behind:hover {
+    visibility: visible;
+}
+
+#explanation4-behind:focus {
+    visibility: visible;
+}
+
+
+#scndarrow {
+    position:relative;
+    top: 450px;
+    right: 600px;
+}
+
+    #scndarrow img {
+        height: 50px;
+        width: 50px;
+    }

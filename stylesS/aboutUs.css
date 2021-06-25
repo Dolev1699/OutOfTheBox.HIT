@@ -1,0 +1,27 @@
+﻿body {
+    background-image: url('../imgRaz/bg-new.png');
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: #002060;
+}
+
+.aboutUsContent { 
+    margin-right: 47px;
+}
+
+.info2 {
+    color:dimgray;
+    padding-bottom: 20%;
+}
+
+#rightyTitle { 
+    margin-right: -5.5%;
+    margin-top:-60px;
+}
+
+#faces {
+    margin-top: -230px;
+    margin-right: 20%;
+    
+}

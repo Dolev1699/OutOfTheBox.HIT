@@ -1,0 +1,403 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>מִחוּץ לַקֻּופְסָה | הוראות משחק שש-בש</title>
+    <meta name="description" content="הוראות משחק שש-בש" />
+    <meta name="keywords" content="הוראות משחק שש-בש" />
+    <meta name="author" content="שנה א סמסטר ב טכנולוגיות למידה HIT" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Segoe+UI">
+
+    <link href="stylesS/horaOt.css" rel="stylesheet" />
+
+    <link rel="icon" href="imgHoraOt/iocn.png" />
+    <link href="styleD/navs.css" rel="stylesheet" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Sidebar Accordion JS -->
+    <script src="jScripts1/JavaScript.js"></script>
+
+</head>
+<body>
+
+        <div id="container">
+
+            <header>
+
+                <ul class="skip-links">
+                    <li><a href="#main">דלג לתוכן המרכזי</a></li>
+                </ul>
+
+                <section id="page-head">
+                    <nav id="mainNav">
+                        <a href="index.html" >
+                            <div class="logo">
+                                <img src="./images/logo.svg" width="120" alt="דף הבית" />
+                                מִחוּץ לַקֻּופְסָה
+                            </div>
+                        </a>
+                        <div class="navlist">
+                            <ul>
+                                <li class="games-menu-container">
+                                    <a href="#">
+                                        משחקי קופסה
+                                        <i class="arrow down"></i>
+                                    </a>
+                                    <ul class="games-menu">
+                                        <li><a href="" class="link-disabled">דומינו</a></li>
+                                        <li><a href="" class="link-disabled">טאקי</a></li>
+                                        <li><a href="" class="link-disabled">מונופול</a></li>
+                                        <li><a href="" class="link-disabled">רמיקוב</a></li>
+                                    </ul>
+                                </li>
+                                <li class="games-menu-container">
+                                    <a href="#">
+                                        משחקי קלפים
+                                        <i class="arrow down"></i>
+                                    </a>
+                                    <ul class="games-menu">
+                                        <li><a href="" class="link-disabled">מלחמה</a></li>
+                                        <li><a href="" class="link-disabled">פוקר</a></li>
+                                        <li><a href="" class="link-disabled">צ'יט</a></li>
+                                        <li><a href="" class="link-disabled">קרה-קופה</a></li>
+                                    </ul>
+                                </li>
+                                <li class="games-menu-container">
+                                    <a href="">
+                                        משחקי לוח
+                                        <i class="arrow down"></i>
+                                    </a>
+                                    <ul class="games-menu">
+                                        <li><a href="" class="link-disabled">דמקה</a></li>
+                                        <li><a href="" class="link-disabled">מנקלה</a></li>
+                                        <li><a href="" class="link-disabled">שחמט</a></li>
+                                        <li><a href="board-games.html">שש-בש</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="contactUs.html" >צור קשר</a>
+                                </li>
+                                <li>
+                                    <a href="siteMap.html">מפת האתר</a>
+                                </li>
+                                <li>
+                                    <a href="contactUs.html" >אודות</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <nav aria-label="תפריט ניווט לדפי האתר">
+                        <ol class="breadCrumb">
+                            <li><a href="index.html" aria-label="דף הבית מחוץ לקופסה">מִחוּץ לַקֻּופְסָה</a></li>
+                            <li><a href="board-games.html" aria-label="ללמוד שש-בש">שש-בש</a>
+                            </li>
+                            <li><strong> ללמוד לשחק</strong></li>
+                        </ol>
+                    </nav>
+
+                </section>
+
+
+            </header>
+
+            <main>
+
+                <nav aria-label="תפריט ניווט משני">
+                    <div class="sideMenu">
+
+                        <ul class="menu">
+                            <li class="shadow"><a href="#contentGame" aria-label="תכולת משחק ומספר משתתפים">תכולה ומשתתפים</a></li>
+                            <li class="shadow"><a href="#gameGoal" aria-label="מטרת המשחק">מטרת המשחק</a></li>
+                            <li class="shadow"><a href="#start" aria-label="איך מתחילים לשחק">איך מתחילים</a></li>
+                            <li class="shadow">
+                                <a href="#">פעולות על הלוח<i class="arrowSideNav arrowSideNavDown"></i></a>
+                                <ul>
+                                    <li><a href="#dir" aria-label="לאן מזיזים את החיילים">לאן מזיזים את החיילים</a></li>
+                                    <li><a href="#how" aria-label="איך מזיזים את החיילים">איך מזיזים את החיילים</a></li>
+                                    <li><a href="#home" aria-label="איך מוציאים חיילים מהלוח">הוצאת חיילים  מהלוח</a></li>
+                                </ul>
+                            </li>
+                            <li class="shadow">
+                                <a href="#" aria-label="תרחישים מיוחדים">תרחישים מיוחדים<i class="arrowSideNav arrowSideNavDown"></i></a>
+                                <ul>
+                                    <li><a href="#eating" aria-label="פעולת אכילה">פעולת אכילה</a></li>
+                                    <li><a href="#double" aria-label="דאבל">דאבל</a></li>
+                                    <li><a href="#empty" aria-label="משולש ריק בבסיס הביתי">משולש ריק בבסיס הביתי</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+
+                <article class="main" role="main" id="main">
+
+                    <h1>ללמוד לשחק שש-בש</h1>
+
+                    <section class="sections" id="contentGame">
+
+                        <h3>משתתפים</h3>
+                        <p class="text">המשחק מיועד לשני שחקנים בלבד.</p>
+
+                        <h3>תכולת המשחק</h3>
+                        <div id="contentIMG">
+                            <img src="imgHoraOt/חייל לבן.png" id="white" width="170" alt="חייל לבן" />
+                            <img src="imgHoraOt/חייל שחור.png" id="black" width="170" alt="חייל שחור" />
+                            <img src="imgHoraOt/קובייה.png" id="dice" width="170" alt="קובייה" /> <br />
+                        </div>
+                        <div class="pContent">
+                            <p class="text topContent" id="content1"> 15 חיילים לבנים </p>
+                            <p class="text topContent" id="content2"> 15 חיילים שחורים </p>
+                            <p class="text topContent" id="content3"> 2 קוביות משחק </p>
+                        </div>
+                        <br />
+
+                        <img src="imgHoraOt/boardContent2.png" id="board" width="700" alt="לוח משחק" />
+
+
+                    </section>
+
+                    <section class="sections">
+                        <div class="paragraphs" id="gameGoal">
+                            <h3>מטרת המשחק: ניצחון!</h3>
+                            <p class="text"> כאשר אחד השחקנים הוציא את כל החיילים מהלוח- הוא ניצח!</p>
+                            <h3>מה זה ניצחון מארס?</h3>
+                            <p class="text">כאשר אחד השחקנים מוציא את כל החיילים שלו מלוח המשחק, בעוד שהשחקן השני לא הוציא אפילו חייל אחד.</p>
+                        </div>
+
+                        <div class="media">
+                            <iframe width="300" height="300" src="https://www.youtube.com/embed/0zijVOXHM1E" title="YouTube video player-ניצחון מארס" aria-hidden="true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </section>
+
+                    <section class="sections">
+                        <div class="paragraphs" id="start">
+                            <h3>לפני שמתחילים: שלוש פעולות בסיסיות</h3>
+                            <h4>1- סידור הלוח</h4>
+                            <p class="text">יש להציב את חיילי הלוח על לוח המשחק.</p>
+                            <h4>2- בחירת כלים</h4>
+                            <p class="text">כל שחקן בוחר צבע, שחור או לבן.</p>
+                            <h4>3- מחליטים מי משחק ראשון</h4>
+                            <p class="text">כל שחקן מטיל קובייה אחת, השחקן שהטיל מספר גבוה יותר - משחק ראשון.</p>
+                        </div>
+
+                        <div class="media">
+                            <iframe width="300" height="300" src="https://www.youtube.com/embed/-ihFzjuzrFY" title="YouTube video player-סידור הלוח" aria-hidden="true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </section>
+
+                    <section class="sections">
+                        <div class="paragraphs" id="dir">
+                            <h3>לאן מזיזים את החיילים</h3>
+                            <h4>חיילים לבנים</h4>
+                            <p class="text">השחקן שברשותו החיילים הלבנים מזיז אותם לכיוון הרביע הימני התחתון.</p>
+                            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                            <h4>חיילים שחורים</h4>
+                            <p class="text">השחקן שברשותו החיילים השחורים, מזיז אותם לכיוון הרביע הימני העליון.</p>
+                        </div>
+
+                        <div class="media">
+                            <img src="imgHoraOt/כיוון משחק לבן.png" width="300" height="300" alt="כיוון משחק לחיילים לבנים" />
+                            <img src="imgHoraOt/כיוון משחק שחור.png" width="300" height="300" alt="כיוון משחק לחיילים שחורים" />
+                        </div>
+
+                    </section>
+
+                    <section class="sections">
+                        <div class="paragraphs" id="how">
+                            <h3>איך מזיזים את החיילים: שימוש בקוביות</h3>
+                            <p class="text">כל שחקן בתורו מטיל את הקוביות. <br />המספר שמתקבל בכל קובייה מייצג את מספר הצעדים שניתן לבצע בתור זה.</p>
+                            <h4>תזוזה עם חייל בודד</h4>
+                            <p class="text">יש לסכום את המספרים שיצאו בקוביות ולזוז עם חייל זה כמספר הצעדים.</p>
+                            <h4>תזוזה עם שני חיילים</h4>
+                            <p class="text">כל קובייה מייצגת את מספר הצעדים שאפשר לבצע עם כל חייל</p>
+                        </div>
+
+                        <div class="media">
+                            <iframe width="300" height="300" src="https://www.youtube.com/embed/KIZiGIz7mPE" title="YouTube video player-איך מזיזים את החיילים" aria-hidden="true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </section>
+
+                    <section class="sections">
+
+                        <div class="paragraphs" id="home">
+                            <h3>כל החיילים בבסיס הביתי? מתחילים להוציא חיילים מהלוח</h3>
+                            <h4>איך מוציאים את החיילים?</h4>
+                            <p class="text">הוצאת החיילים מתבצעת כאשר שחקן מטיל מספר שתואם את המשולש עליו החייל עומד. לדוגמא, כאשר מטילים את המספר 6 זה מאפשר לשחקן להוציא חייל ממשולש מספר 6.</p>
+                        </div>
+
+                        <div class="media">
+                            <iframe width="300" height="300" src="https://www.youtube.com/embed/7Ipg1II7UuM" title="YouTube video player-איך להוציא חיילים מהלוח" aria-hidden="true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                    </section>
+
+                    <section class="sections">
+
+                        <div class="paragraphs" id="eating">
+                            <h3>פעולת אכילה</h3>
+                            <h4>מה זה?</h4>
+                            <p class="text">מצב שבו היריב הוציא את השחקן שלך מחוץ למשחק. עד שהחייל לא חוזר למשחק, לא תוכל להמשיך לשחק.</p>
+                            <h4>איך אוכלים?</h4>
+                            <p class="text">אם בהטלת קובייה, קיבלת מספר צעדים שמאפשר לך להגיע למשולש בו יש חייל בודד של היריב, אם תבחר להגיע אליו תוכל להוציא את חייל זה מהמשחק.</p>
+                            <h4>איך מתגברים על אכילה?</h4>
+                            <p class="text">רק כאשר המספר שיתקבל על אחת מהקוביות יהיה של "משולש פנוי" בבסיס היריב, תוכל למקם שם את החייל שנאכל ולהמשיך לשחק כרגיל.</p>
+                        </div>
+
+                        <div class="media">
+                            <iframe width="300" height="300" src="https://www.youtube.com/embed/Ar5V1wEeUGM" title="YouTube video player-פעולת אכילה" aria-hidden="true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </section>
+
+                    <section class="sections">
+                        <div class="paragraphs" id="double">
+                            <h3>דאבל</h3>
+                            <h4>מה זה?</h4>
+                            <p class="text">מצב שבו יצאו מספרים זהים בהטלת הקוביות.</p>
+                            <h4>מה המשמעות?</h4>
+                            <p class="text">ביצוע שני תורות ברצף.</p>
+                            <h4>מהן האפשרויות?</h4>
+                            <p class="text">ניתן להתקדם עם חייל אחד את כל הצעדים או עם כמה חיילים לפי המספר שהתקבל בהטלת הקוביות.</p>
+
+                        </div>
+
+                        <div class="media">
+                            <iframe width="300" height="300" src="https://www.youtube.com/embed/B0i22nUhAQc" title="YouTube video player-דאבל" aria-hidden="true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </section>
+
+                    <section class="sections">
+                        <div class="paragraphs" id="empty">
+                            <h3>רוצה להוציא חיילים מהלוח, אבל הוטל מספר של משולש ריק בקובייה?</h3>
+                            <p class="text">עלייך להתקדם עם חייל לעבר המשולש הראשון את מספר הצעדים שיצא בהטלת הקובייה.</p>
+                            <h4>אין חיילים במשולשים גבוהים יותר?</h4>
+                            <p class="text">עלייך להוציא חיילים מהמשולש הגבוה ביותר. יש לציין כי אין אפשרות להוציא חיילים אם ניתן לבצע מהלך חוקי אחר.</p>
+                        </div>
+
+                        <div class="media">
+                            <iframe width="300" height="300" src="https://www.youtube.com/embed/9JgQdorrWl0" title="YouTube video player-הוצאת חיילים מהלוח כאשר יש משולשים ריקים בבסיס הביתי" aria-hidden="true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                    </section>
+
+                    <section class="sectionLast">
+                        <div id="done">
+                            <h3>סיימת ללמוד לשחק?</h3>
+                        </div>
+                        <div class="buttonsWrapper">
+                            <a class="winButton" href="Strategies.html">
+                                <p>
+                                    אני רוצה ללמוד
+                                    <br />
+                                    <span>
+                                        לנצח
+                                    </span>
+                                </p>
+                                <img src="imgHoraOt/trophy.png" class="buttonImg" width="130" alt="Trophy Icon" />
+                            </a>
+                        </div>
+                    </section>
+
+                </article>
+                <section id="bottom-nav-bar">
+                    <footer aria-label="פוטר">
+                        <div class="content">
+                            <div class="footerNav">
+                                <a href="#">
+                                    <h4>מִחוּץ לַקֻּופְסָה</h4>
+                                </a>
+                                <a href="index.html">
+                                    <img class="footer-logo" src="./images/logo.svg" width="80" alt="" />
+                                </a>
+                            </div>
+                            <div class="footerNav">
+                                <a href="#">
+                                    <h4 class="link-disabled">משחקי לוח</h4>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="link-disabled">דמקה</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-disabled">מנקלה</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-disabled">שחמט</a>
+                                    </li>
+                                    <li>
+                                        <a href="board-games.html">שש-בש</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footerNav">
+                                <a href="#">
+                                    <h4 class="link-disabled">משחקי קלפים</h4>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="link-disabled">מלחמה</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-disabled">פוקר</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-disabled">צ'יט</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-disabled">קרה-קופה</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="footerNav">
+                                <a href="#">
+                                    <h4 class="link-disabled">משחקי קופסה</h4>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="link-disabled">דומינו</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-disabled">טאקי</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-disabled">מונופול</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-disabled">רמיקוב</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footerNav">
+                                <a href="aboutUs.html" >
+                                    <h4>אודות</h4>
+                                </a>
+                            </div>
+                            <div class="footerNav">
+                                <a href="siteMap.html" >
+                                    <h4>מפת אתר</h4>
+                                </a>
+                            </div>
+                            <div class="footerNav">
+                                <a href="contactUs.html" >
+                                    <h4>צור קשר</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </footer>
+                </section>
+            </main>
+        </div>
+
+
+
+</body>
+</html>

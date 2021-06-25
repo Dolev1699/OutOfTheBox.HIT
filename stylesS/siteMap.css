@@ -1,0 +1,33 @@
+﻿
+#container {
+    width: 1280px;
+    margin: auto 0;
+}
+
+#boxNav {
+    float: left;
+    width: 25%;
+    height: 280px;
+}
+
+#cardNav {
+    float: left;
+    width: 50%;
+    height: 280px;
+}
+
+#boardNav {
+    float: right;
+    width: 25%;
+    height: 280px;
+}
+
+#rightyTitle {
+    margin-right: -5.5%;
+    margin-top: -60px;
+}
+
+.mapContent {
+    margin-right: 47px;
+    margin-bottom: 5%;
+}

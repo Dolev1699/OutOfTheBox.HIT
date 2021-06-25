@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/board-bg.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 98% 85%;
+    color: #002060;
+}
+.mainImage {
+    position: absolute;
+    left: 5%;
+    top: 8%;
+    max-height: 580px;
+}
+.buttonsWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.playButton,
+.winButton {
+    height: 64px;
+    width: 214px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 7px 15px rgba(150, 150, 150, 0.3);
+    padding-right: 15px;
+    color: #002060;
+    font-family: "Segoe UI Semibold";
+    position: relative;
+}
+.playButton span,
+.winButton span {
+    font-size: 24px;
+    font-weight: bold;
+}
+.playButton {
+    background: rgb(197, 224, 180);
+    background: linear-gradient(180deg, rgba(197, 224, 180, 1) 0%, rgba(226, 240, 217, 1) 100%);
+}
+.winButton {
+    background: rgb(253, 127, 166);
+    background: linear-gradient(180deg, rgba(253, 127, 166, 1) 0%, rgba(252, 81, 133, 1) 100%);
+}
+.buttonImg {
+    position: absolute;
+    left: -25px;
+}
+
+#bottom-nav-bar{
+    margin-top: 170px;
+}
+

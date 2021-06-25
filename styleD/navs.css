@@ -1,0 +1,213 @@
+
+body {
+    font-family: "Varela Round";
+    width: 1280px;
+    margin: 0 auto;
+    direction: rtl;
+    
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+    .skip-links a {
+        position: absolute;
+        top: -20em;
+    }
+
+        .skip-links a:focus {
+            top: 0;
+        }
+
+#mainNav {
+    font-family: "Segoe UI Semibold";
+    font-size: 14px;
+    width: 94%;
+    position: relative;
+    top: 20px;
+    z-index: 10;
+    margin: auto;
+    background: white;
+    background: linear-gradient(180deg, rgba(240, 240, 240, 1) 30%, rgb(210, 210, 210) 100%);
+    border-radius: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(100, 100, 100, 0.2);
+}
+.navlist {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo {
+    min-width: 250px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #002060;
+}
+.logo img {
+    margin-right: -20px;
+    margin-top: -5px;
+}
+.logo:hover, .logo:focus {
+    color: #e8316b;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navlist li {
+    float: right;
+}
+.navlist li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: larger;
+    color: #002060;
+}
+.navlist li a:hover, .navlist li a:focus
+.selected {
+    color: #e8316b;
+}
+.navlist li a:hover > .arrow, .navlist li a:focus > .arrow {
+    border-color: #e8316b;
+}
+.navlist .arrow {
+    border: solid black;
+    border-color: midnightblue;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.games-menu-container {
+    position: relative;
+    display: inline-block;
+}
+.games-menu {
+    position: absolute;
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    top: 40px;
+    right: 15px;
+    padding: 4px 20px;
+    border-radius: 0px 0 20px 20px;
+    box-shadow: 1px 1px 3px -1px;
+    background-color: #efefef;
+    transition: all 0.3s ease-in-out;
+}
+.games-menu li {
+    float: none;
+}
+.games-menu-container:hover .games-menu, .games-menu-container:focus .games-menu {
+    opacity: 1;
+    max-height: 300px;
+}
+
+.titles {
+    margin-right: 5%;
+    margin-top: 60px;
+}
+.titles h1 {
+    font-size: 62px;
+    margin: 0;
+    font-weight: normal;
+}
+.titles h4 {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    position: relative;
+    height: 230px;
+    bottom: 0;
+    color: #002060;
+}
+    footer .content {
+        display: flex;
+        flex-direction: row;
+        padding: 12px 15%;
+        
+    }
+.footer-logo {
+    opacity: 0.6;
+    position: relative;
+    right: 0;
+    top: -14px;
+}
+.footerNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 50px;
+   
+}
+.footerNav h4 {
+    margin: 10px 0 5px 0;
+}
+    .footerNav li {
+        margin-top: 8px;
+        margin-right: 10px;
+        font-size: 14px;
+        color: #002060;
+    }
+
+.link-disabled {
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+ol.breadCrumb {
+    padding: 30px 47px;
+    list-style: none;
+    color: #002060;
+}
+
+ol.breadCrumb li {
+    display: inline;
+    font-size: 12px;
+}
+
+ol.breadCrumb li + li:before {
+    padding: 8px;
+    color: #002060;
+    content: ">";
+}
+
+ol.breadCrumb li a {
+    color: #002060;
+    text-decoration: none;
+}
+
+ol.breadCrumb li a:hover {
+    color: #FB2567;
+    text-decoration: underline;
+}
