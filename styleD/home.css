@@ -16,8 +16,7 @@ body {
     height: 470px;
     background: rgba(197, 224, 180, 1);
     background-image: url("../images/box-background.png");
-    background-image: url("../images/box-background.png");
-    background: linear-gradient(0deg, rgba(226, 240, 217, 1) 0%, rgba(197, 224, 180, 1) 100%);
+    background: url("../images/box-background.png"), linear-gradient(0deg, rgba(226, 240, 217, 1) 0%, rgba(197, 224, 180, 1) 100%);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: contain;
